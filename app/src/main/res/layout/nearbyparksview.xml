@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <GridLayout
+        android:columnCount="2"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/colorParkBarLight"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/parkCaption"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/carparking"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:minWidth="100dp"
+            android:minHeight="100dp"/>
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/parkName"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/parkLocstion"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="arial"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="parkingcolor">#FFBD33</color>
+    <color name="colorlink">#668cff</color>
+    <color name="colorParkBar">#111109</color>
+    <color name="colorParkBarLight">#33331a</color>
+    <color name="white">#ffffff</color>
+    <color name="colorMenuBar">#54542c</color>
+
+</resources>
